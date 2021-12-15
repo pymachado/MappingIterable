@@ -7,7 +7,7 @@ pragma solidity ^0.8.0;
     @notice An abstract contract to work with mapping iterable from easy way
  */
 
-abstract contract MappingIterable {
+contract MappingIterable {
     
     struct itMap {
         bool exist;
