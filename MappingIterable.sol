@@ -28,7 +28,7 @@ abstract contract MappingIterable {
         _;
     }
 
-    function createItMap() public returns(uint index) {
+    function createItMap() internal returns(uint index) {
         itMappings[totalItMaps++].exist = true;
         return totalItMaps;
     } 
