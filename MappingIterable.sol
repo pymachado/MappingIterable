@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: GPL-3.0
 
+
 pragma solidity ^0.8.0;
+/**
+    @author Pedro Machado
+    @notice An abstract contract to work with mapping iterable from easy way
+ */
 
 abstract contract MappingIterable {
     
